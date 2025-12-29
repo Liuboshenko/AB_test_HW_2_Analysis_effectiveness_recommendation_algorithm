@@ -1,8 +1,6 @@
-# Анализ A/B-теста: Эффективность алгоритма рекомендаций
+# Анализ эффективности нового алгоритма рекомендаций в условиях асимметричного и зашумленного распределения
 
 Этот проект анализирует результаты A/B-теста для оценки эффективности алгоритма рекомендаций с использованием статистических методов и визуализации данных. Он включает Jupyter-ноутбук с подробным анализом и CSV-датасет.
-
-## Технический стек
 
 ## Технический стек
 <p align="left">
@@ -13,6 +11,20 @@
   <a href="https://matplotlib.org"><img src="https://img.shields.io/badge/Matplotlib-3.10.8-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib 3.10.8" /></a>
   <a href="https://seaborn.pydata.org/"><img src="https://img.shields.io/badge/Seaborn-0.13.2-3776AB?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn 0.13.2" /></a>
 </p>
+
+## Структура проекта
+
+```bash
+tree ./ -I '3.12venv'
+./
+├── ab_test_results.csv
+├── Homework_with_answers_modul_2.ipynb
+├── LICENSE
+├── README.md
+├── requirements.txt
+
+```
+
 
 ## Начало работы
 
